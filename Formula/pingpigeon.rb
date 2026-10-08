@@ -2,28 +2,28 @@
 class Pingpigeon < Formula
   desc "Email, push and text yourself from the terminal"
   homepage "https://pingpigeon.app"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chiefsmurph/pingpigeon-cli/releases/download/v0.1.0/pingpigeon-darwin-arm64.tar.gz"
-      sha256 "008ecd2979ba624c495dd212508276208bd1bc500a0523fa248019cb03fde682"
+      url "https://github.com/chiefsmurph/pingpigeon-cli/releases/download/v0.1.1/pingpigeon-darwin-arm64.tar.gz"
+      sha256 "a39484d0b78ff674b79a48a12427c2b6a451787c6500c427413c32e67ee047d8"
     end
     on_intel do
-      url "https://github.com/chiefsmurph/pingpigeon-cli/releases/download/v0.1.0/pingpigeon-darwin-x64.tar.gz"
-      sha256 "a9ceeb41a6c35ac2ca29508c98745c9b3eabe7519f3991474d26553bb16edea1"
+      url "https://github.com/chiefsmurph/pingpigeon-cli/releases/download/v0.1.1/pingpigeon-darwin-x64.tar.gz"
+      sha256 "bf97cb85935a3f1e31466357b30976514b12b811647fc1f0ec3af7c141387260"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chiefsmurph/pingpigeon-cli/releases/download/v0.1.0/pingpigeon-linux-arm64.tar.gz"
-      sha256 "6f9b54cd075461f3576dab3d947822ba6582de58e6be40242fc1d82ed52d7575"
+      url "https://github.com/chiefsmurph/pingpigeon-cli/releases/download/v0.1.1/pingpigeon-linux-arm64.tar.gz"
+      sha256 "b4647d5934305772abd1b0b312d6b051a549b763ed53eb6bc3f430feb0807c18"
     end
     on_intel do
-      url "https://github.com/chiefsmurph/pingpigeon-cli/releases/download/v0.1.0/pingpigeon-linux-x64.tar.gz"
-      sha256 "51119f0026dc35ab88e892de4ce9d8375614ddfc40ce1a1de8b3a8a38ed3c43e"
+      url "https://github.com/chiefsmurph/pingpigeon-cli/releases/download/v0.1.1/pingpigeon-linux-x64.tar.gz"
+      sha256 "8f9625b58e2d6e1a18078c49bc13b7b307a644fbaf03a78feed4d5df48cacc44"
     end
   end
 
