@@ -2,28 +2,28 @@
 class GitDrift < Formula
   desc "Find code that never made it to GitHub, on your laptop and your servers"
   homepage "https://github.com/chiefsmurph/git-drift"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chiefsmurph/git-drift/releases/download/v0.2.1/git-drift-darwin-arm64.tar.gz"
-      sha256 "c23d4b3a44ad2f6e574f689978b48ece60d26d551791ff72fe6f6bb81faab016"
+      url "https://github.com/chiefsmurph/git-drift/releases/download/v0.3.0/git-drift-darwin-arm64.tar.gz"
+      sha256 "8dde66fb7b0b8896f7e53a72922cd40621731d378c019b7e01b150aecfdcdd86"
     end
     on_intel do
-      url "https://github.com/chiefsmurph/git-drift/releases/download/v0.2.1/git-drift-darwin-x64.tar.gz"
-      sha256 "d4b4009f2548974cd52ad64425d49ba638912aaca6391f636bfde7c2714c8ba0"
+      url "https://github.com/chiefsmurph/git-drift/releases/download/v0.3.0/git-drift-darwin-x64.tar.gz"
+      sha256 "71b09f2e3450cfbaf428aa06ef0959b725095f3eed981c1aeb4c8c9c96eaa441"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chiefsmurph/git-drift/releases/download/v0.2.1/git-drift-linux-arm64.tar.gz"
-      sha256 "99847e960502d3bcf3ca422b3d00de3ac8f232656fe3e8a53f502959094cd309"
+      url "https://github.com/chiefsmurph/git-drift/releases/download/v0.3.0/git-drift-linux-arm64.tar.gz"
+      sha256 "02232fff5c09dc3298edc46fce19e86661ebe14f2a2cb6d6266bf90c2cd76b9a"
     end
     on_intel do
-      url "https://github.com/chiefsmurph/git-drift/releases/download/v0.2.1/git-drift-linux-x64.tar.gz"
-      sha256 "db3f176a4be68a82f0d95f15eb00a10434e807d0efaead62b1d52eb8a1658bf7"
+      url "https://github.com/chiefsmurph/git-drift/releases/download/v0.3.0/git-drift-linux-x64.tar.gz"
+      sha256 "9ede0391a66e9c7dca013d2de6c3afd800653da15742f2953e8f920cec98ebc2"
     end
   end
 
